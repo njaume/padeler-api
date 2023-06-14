@@ -2,7 +2,7 @@ import {
   IGetUserService,
 } from "@/domain/use-cases/user-service";
 
-import { AddUserParams, UserEntity } from "@/domain/entities/user";
+import { UserEntity } from "@/domain/entities/user";
 import { Inject, Service } from "typedi";
 import { UserRepositoryAdapter } from "@/infrastructure/driven-adapters/adapters/orm/mongoose/user-mongoose-repository-adapter";
 
